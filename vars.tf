@@ -78,11 +78,10 @@ variable "admin_password" {
 }
 
 variable "admin_username" {
-  description = "The username to assign tot he new VMs admin user account"
+  description = "The username to assign to the new VMs admin user account"
   default     = "adminuser"
   type        = string
-  sensitive   = true
-}
+ }
 
 variable "storage_os_disk_config" {
   description = "Map to configure OS storage disk. (Caching, size, storage account type...)"
