@@ -74,7 +74,6 @@ variable "diagnostics_storage_account_name" {
 variable "admin_password" {
   description = "The password to assign to the new Admin user account."
   type        = string
-  sensitive   = true
 }
 
 variable "admin_username" {
